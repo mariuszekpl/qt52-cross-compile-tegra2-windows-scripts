@@ -1,0 +1,1 @@
+7z.exe x -Y ..\qt-everywhere-opensource-src-5.2.0.zip > nul

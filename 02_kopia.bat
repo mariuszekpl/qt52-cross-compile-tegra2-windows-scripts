@@ -1,0 +1,1 @@
+xcopy /s /q /y /i qt-everywhere-opensource-src-5.2.0 qtsrc
