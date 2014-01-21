@@ -1,0 +1,39 @@
+Musia³em dopiaæ do 
+qtbase\src\corelib\global
+brakujace 
+qt_configure_settings_path_str 
+QT_CONFIGURE_SETTINGS_PATH 
+
+
+1)
+Mysle ¿e Qt zrezygnowa³ z kompilacji dla linux-a
+
+enum Platforms {
+    WINDOWS,
+    WINDOWS_CE,
+    WINDOWS_RT,
+    QNX,
+    BLACKBERRY,
+    ANDROID
+}; Where is LINUX ???? 
+
+  
+"Tego brakuje !!!"
+       if ((platform() != WINDOWS) && (platform() != WINDOWS_CE) && (platform() != WINDOWS_RT))
+            tmpStream << "static const char qt_configure_settings_path_str [256 + 12] = \"qt_stngpath=" << formatPath(dictionary["QT_INSTALL_SETTINGS"]) << "\";" << endl;
+
+        if ((platform() != WINDOWS) && (platform() != WINDOWS_CE) && (platform() != WINDOWS_RT))
+            tmpStream << "#define QT_CONFIGURE_SETTINGS_PATH qt_configure_settings_path_str + 12;" << endl;
+
+
+
+2)
+zalaz³em arch.exe 
+void Configure::detectArch()
+
+
+3)
+makefile nie kompiluje rc 
+
+
+4) chce kompilowac do .DLL

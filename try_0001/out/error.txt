@@ -1,0 +1,32 @@
+cd src\ && ( if not exist Makefile E:\Qt\test_toradex\qt52-cross-compile-tegra2-windows-scripts\qtsrc\qtbase\bin\qmake E:\Qt\test_toradex\qt52-cross-compile-tegra2-windows-scripts\qtsrc\qtbase\src\src.pro -o Makefile ) && mingw32-make -f Makefile 
+mingw32-make[1]: Entering directory 'E:/Qt/test_toradex/qt52-cross-compile-tegra2-windows-scripts/qtsrc/qtbase/src'
+cd tools\bootstrap\ && ( if not exist Makefile E:\Qt\test_toradex\qt52-cross-compile-tegra2-windows-scripts\qtsrc\qtbase\bin\qmake E:\Qt\test_toradex\qt52-cross-compile-tegra2-windows-scripts\qtsrc\qtbase\src\tools\bootstrap\bootstrap.pro -o Makefile ) && mingw32-make -f Makefile 
+mingw32-make[2]: Entering directory 'E:/Qt/test_toradex/qt52-cross-compile-tegra2-windows-scripts/qtsrc/qtbase/src/tools/bootstrap'
+mingw32-make -f Makefile.Release
+mingw32-make[3]: Entering directory 'E:/Qt/test_toradex/qt52-cross-compile-tegra2-windows-scripts/qtsrc/qtbase/src/tools/bootstrap'
+mingw32-make[3]: Nothing to be done for 'first'.
+mingw32-make[3]: Leaving directory 'E:/Qt/test_toradex/qt52-cross-compile-tegra2-windows-scripts/qtsrc/qtbase/src/tools/bootstrap'
+mingw32-make[2]: Leaving directory 'E:/Qt/test_toradex/qt52-cross-compile-tegra2-windows-scripts/qtsrc/qtbase/src/tools/bootstrap'
+cd tools\moc\ && ( if not exist Makefile E:\Qt\test_toradex\qt52-cross-compile-tegra2-windows-scripts\qtsrc\qtbase\bin\qmake E:\Qt\test_toradex\qt52-cross-compile-tegra2-windows-scripts\qtsrc\qtbase\src\tools\moc\moc.pro -o Makefile ) && mingw32-make -f Makefile 
+mingw32-make[2]: Entering directory 'E:/Qt/test_toradex/qt52-cross-compile-tegra2-windows-scripts/qtsrc/qtbase/src/tools/moc'
+mingw32-make -f Makefile.Release
+mingw32-make[3]: Entering directory 'E:/Qt/test_toradex/qt52-cross-compile-tegra2-windows-scripts/qtsrc/qtbase/src/tools/moc'
+mingw32-make[3]: Nothing to be done for 'first'.
+mingw32-make[3]: Leaving directory 'E:/Qt/test_toradex/qt52-cross-compile-tegra2-windows-scripts/qtsrc/qtbase/src/tools/moc'
+mingw32-make[2]: Leaving directory 'E:/Qt/test_toradex/qt52-cross-compile-tegra2-windows-scripts/qtsrc/qtbase/src/tools/moc'
+cd tools\rcc\ && ( if not exist Makefile E:\Qt\test_toradex\qt52-cross-compile-tegra2-windows-scripts\qtsrc\qtbase\bin\qmake E:\Qt\test_toradex\qt52-cross-compile-tegra2-windows-scripts\qtsrc\qtbase\src\tools\rcc\rcc.pro -o Makefile ) && mingw32-make -f Makefile 
+mingw32-make[2]: Entering directory 'E:/Qt/test_toradex/qt52-cross-compile-tegra2-windows-scripts/qtsrc/qtbase/src/tools/rcc'
+mingw32-make -f Makefile.Release
+mingw32-make[3]: Entering directory 'E:/Qt/test_toradex/qt52-cross-compile-tegra2-windows-scripts/qtsrc/qtbase/src/tools/rcc'
+mingw32-make[3]: Nothing to be done for 'first'.
+mingw32-make[3]: Leaving directory 'E:/Qt/test_toradex/qt52-cross-compile-tegra2-windows-scripts/qtsrc/qtbase/src/tools/rcc'
+mingw32-make[2]: Leaving directory 'E:/Qt/test_toradex/qt52-cross-compile-tegra2-windows-scripts/qtsrc/qtbase/src/tools/rcc'
+cd corelib\ && ( if not exist Makefile E:\Qt\test_toradex\qt52-cross-compile-tegra2-windows-scripts\qtsrc\qtbase\bin\qmake E:\Qt\test_toradex\qt52-cross-compile-tegra2-windows-scripts\qtsrc\qtbase\src\corelib\corelib.pro -o Makefile ) && mingw32-make -f Makefile 
+mingw32-make[2]: Entering directory 'E:/Qt/test_toradex/qt52-cross-compile-tegra2-windows-scripts/qtsrc/qtbase/src/corelib'
+rc -i libQt5Core_resource.rc -o .obj\libQt5Core_resource.res --include-dir=. -DQT_NO_USING_NAMESPACE -DQT_BUILD_CORE_LIB -DQT_BUILDING_QT -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -DQT_DEPRECATED_WARNINGS -DQT_DISABLE_DEPRECATED_BEFORE=0x050000 -DPCRE_HAVE_CONFIG_H -DQT_CORE_LIB -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE
+fatal error RC1106: invalid option: -o
+Makefile:653: recipe for target '.obj/libQt5Core_resource.res' failed
+mingw32-make[2]: Leaving directory 'E:/Qt/test_toradex/qt52-cross-compile-tegra2-windows-scripts/qtsrc/qtbase/src/corelib'
+Makefile:129: recipe for target 'sub-corelib-make_first' failed
+mingw32-make[1]: Leaving directory 'E:/Qt/test_toradex/qt52-cross-compile-tegra2-windows-scripts/qtsrc/qtbase/src'
+Makefile:41: recipe for target 'sub-src-make_first' failed
