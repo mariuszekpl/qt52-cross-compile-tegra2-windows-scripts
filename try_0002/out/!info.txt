@@ -1,2 +1,0 @@
-Wygenerowane makefile wymagaja polecen z linux-a 
-a w msys nie chca dzialac :( 
