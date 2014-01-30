@@ -1,0 +1,9 @@
+[0]
+Warto zajrzec do 
+E:\Qt\test_toradex\qt52-cross-compile-tegra2-windows-scripts\qtsrc\qtbase\config.summary
+
+[1]
+w plik
+E:\Qt\test_toradex\qt52-cross-compile-tegra2-windows-scripts\qtsrc\qtbase\mkspecs\qconfig.pri
+ dopisa³em   
+QT_CONFIG += xkbcommon-qt 

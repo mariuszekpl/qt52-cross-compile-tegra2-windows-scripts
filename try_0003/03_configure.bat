@@ -4,7 +4,7 @@ copy qmake.conf "..\qtsrc\qtbase\mkspecs\linux-arm-gnueabi-g++"
 
 cd "..\qtsrc\qtbase" 
 
-configure.bat  -xplatform linux-arm-gnueabi-g++   -no-opengl -no-neon  -nomake tests -opensource -confirm-license   
+configure.bat -release -xplatform linux-arm-gnueabi-g++   -no-opengl -no-neon  -nomake tests -opensource -confirm-license   
 
 pause
 exit  
